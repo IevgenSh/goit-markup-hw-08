@@ -1,0 +1,16 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+
+  font-weight: var(--bold-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--modal-line-height);
+  text-align: center;
+}

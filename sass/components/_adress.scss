@@ -1,0 +1,29 @@
+.adress {
+  color: var(--primery-white-color);
+  font-style: normal;
+  font-size: var(--primery-font-size);
+  line-height: var(--primery-line-height);
+
+  height: 81px;
+
+  .link {
+    display: block;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color 250ms var(--timing-function);
+
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+
+    & a:first-child {
+      color: var(--primery-white-color);
+    }
+  }
+}

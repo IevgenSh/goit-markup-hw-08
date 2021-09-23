@@ -26,4 +26,11 @@
       color: var(--primery-white-color);
     }
   }
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
 }

@@ -7,6 +7,10 @@
   height: 81px;
 
   .link {
+    &:nth-child(1) {
+      color: var(--primery-white-color);
+    }
+
     display: block;
 
     color: rgba(255, 255, 255, 0.6);
@@ -27,7 +31,7 @@
     }
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 1199px) {
     display: flex;
     flex-direction: column;
     align-items: center;

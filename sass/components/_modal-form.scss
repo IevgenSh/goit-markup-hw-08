@@ -3,6 +3,11 @@
   height: 342px;
   margin-left: 40px;
   margin-right: 40px;
+
+  @media screen and (max-width: 1199px) {
+    width: auto;
+    height: auto;
+  }
 }
 
 .modal__form-field {
@@ -30,6 +35,10 @@
   left: 0;
 
   width: 448px;
+
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+  }
 }
 
 .modal__input-block {
@@ -74,6 +83,11 @@
     width: 448px;
     height: auto;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 1199px) {
+      width: auto;
+      height: auto;
+    }
   }
 }
 
@@ -147,6 +161,11 @@ textarea {
   line-height: var(--primery-line-height);
   letter-spacing: 0.03em;
   color: #757575;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.17;
+  }
 }
 
 .modal__checkbox-text {

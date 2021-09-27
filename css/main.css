@@ -45,6 +45,10 @@ ul {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -318,6 +322,8 @@ ul {
 @media screen and (min-width: 320px) and (max-width: 576px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/phone.jpg");
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 
@@ -330,6 +336,8 @@ ul {
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet.jpg");
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 
@@ -492,6 +500,8 @@ ul {
 }
 
 .features-block__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: var(--bold-font-weight);
   font-size: var(--primery-font-size);
@@ -499,10 +509,8 @@ ul {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .features-block__title {
-    margin-top: 30px;
-    margin-bottom: 10px;
     text-align: center;
   }
 }
@@ -1279,6 +1287,7 @@ textarea::placeholder {
   color: var(--title-text-color);
   background-color: var(--portfolio-buttons-font-color);
   border-radius: 4px;
+  box-shadow: none;
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
   font-weight: 500;
   font-size: var(--button-font-size);
@@ -1483,6 +1492,12 @@ textarea::placeholder {
 
 .mobile-menu-nav__item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.mobile-menu-socials {
+  position: absolute;
+  bottom: 48px;
+  left: 40px;
 }
 
 .mobile-menu-nav__contact-us {

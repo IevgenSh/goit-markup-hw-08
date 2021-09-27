@@ -28,6 +28,7 @@
     color: var(--title-text-color);
     background-color: var(--portfolio-buttons-font-color);
     border-radius: 4px;
+    box-shadow: none;
 
     transition: background-color 250ms var(--timing-function),
       color 250ms var(--timing-function),

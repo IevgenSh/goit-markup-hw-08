@@ -1391,10 +1391,17 @@ textarea::placeholder {
 }
 
 .projects-list-item .border {
+  flex-grow: 1;
   border-top: 0px;
   border-left: solid 1px #eeeeee;
   border-right: solid 1px #eeeeee;
   border-bottom: solid 1px #eeeeee;
+}
+
+.projects-list-item .link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .projects-list-thumb {
